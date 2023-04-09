@@ -5,6 +5,10 @@
 
 :root {
     --my-images: 300px;
+    --delay: 1.5s;
+    
+    --logo: 100px;
+    --dicebear: 75px;
 }
 
 body {
@@ -12,9 +16,9 @@ body {
     margin: 0;
     padding: 0;
 
-    /* background-color: #131316; */
-    /* color: #ffffff; */
-    /* font-family: 'Poppins', sans-serif; */
+    background-color: #131316; 
+    color: #ffffff; 
+    font-family: 'Poppins', sans-serif;
 }
 
 header {
@@ -24,11 +28,6 @@ header {
     text-align: center;
 }
 
-section {
-    padding: 50px;
-    /* display: grid;
-    place-items: center; */
-}
 
 .image-container {
     display: flex;
