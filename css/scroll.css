@@ -1,0 +1,45 @@
+  @keyframes fadeIn {
+      from {
+          opacity: 0;
+      }
+
+      to {
+          opacity: 1;
+      }
+  }
+
+ h1 {
+      opacity: 0;
+      animation: fadeIn 2s ease-in-out forwards;
+      /* This animation fades in the h1 element over 1 second */
+  }
+
+  img,
+  p {
+      opacity: 0;
+      animation: fadeIn 2s ease-in-out forwards;
+      /* This animation fades in the images and paragraphs over 1 second */
+        width: 100%;
+    }
+
+  @keyframes fadeIn {
+      from {
+          opacity: 0;
+      }
+
+      to {
+          opacity: 1;
+      }
+  }
+
+  img.fade {
+    height: var(--my-images);
+    width: var(--my-images);
+  }
+
+  p.fade {
+    font-size: 18px;
+        line-height: 1.5;
+        max-width: var(--my-images);
+        /* This sets the maximum width of the paragraph to the width of the container */
+    }

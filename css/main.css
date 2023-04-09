@@ -1,0 +1,45 @@
+@import url('scroll.css');
+@import url('intersection-observer.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+:root {
+    --my-images: 300px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    /* background-color: #131316; */
+    /* color: #ffffff; */
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    padding: 50px;
+    /* display: grid;
+    place-items: center; */
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-block {
+    margin: 20px;
+    width: var(--my-images);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
